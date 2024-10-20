@@ -187,6 +187,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Flatbread.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Classic\Chimes.wav" />
@@ -489,10 +491,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Assets\Flatbread.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Update="LICENSE.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
