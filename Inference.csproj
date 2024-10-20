@@ -3,6 +3,503 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>Windows Sounds Pack</Title>
+    <Authors>Lamparter</Authors>
+    <Description>Sounds and audio for Rebound 11 and your projects!</Description>
+    <Copyright>Copyright (c) 2024 David Mounder</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageTags>sounds, rebound, riverside, windows11</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Lamparter/Inference</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>Flatbread.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ancient\Chimes.wav" />
+    <None Remove="Ancient\Chord.wav" />
+    <None Remove="Ancient\Ding.wav" />
+    <None Remove="Ancient\Ring In.wav" />
+    <None Remove="Ancient\Ring Out.wav" />
+    <None Remove="Ancient\Startup.wav" />
+    <None Remove="Ancient\Tada.wav" />
+    <None Remove="Anniversary\Background.wav" />
+    <None Remove="Anniversary\Foreground.wav" />
+    <None Remove="Anniversary\Message Nudge.wav" />
+    <None Remove="Anniversary\Notify Calendar.wav" />
+    <None Remove="Anniversary\Notify Email.wav" />
+    <None Remove="Anniversary\Notify Messaging.wav" />
+    <None Remove="Anniversary\Notify System Generic.wav" />
+    <None Remove="Anniversary\User Account Control.wav" />
+    <None Remove="Classic\Chimes.wav" />
+    <None Remove="Classic\Chord.wav" />
+    <None Remove="Classic\Ding.wav" />
+    <None Remove="Classic\Startup-1.wav" />
+    <None Remove="Classic\Startup-2.wav" />
+    <None Remove="Classic\Tada.wav" />
+    <None Remove="Experience\Balloon.wav" />
+    <None Remove="Experience\Battery Critical.wav" />
+    <None Remove="Experience\Battery Low.wav" />
+    <None Remove="Experience\Critical Stop.wav" />
+    <None Remove="Experience\Default.wav" />
+    <None Remove="Experience\Ding.wav" />
+    <None Remove="Experience\Error.wav" />
+    <None Remove="Experience\Exclamation.wav" />
+    <None Remove="Experience\Explore.wav" />
+    <None Remove="Experience\Hardware Fail.wav" />
+    <None Remove="Experience\Hardware Insert.wav" />
+    <None Remove="Experience\Hardware Remove.wav" />
+    <None Remove="Experience\Log Off.wav" />
+    <None Remove="Experience\Log On.wav" />
+    <None Remove="Experience\Menu Command.wav" />
+    <None Remove="Experience\Notify.wav" />
+    <None Remove="Experience\Print Complete.wav" />
+    <None Remove="Experience\Ring In.wav" />
+    <None Remove="Experience\Ring Out.wav" />
+    <None Remove="Experience\Shutdown.wav" />
+    <None Remove="Experience\Startup.wav" />
+    <None Remove="Millennium\Chimes.wav" />
+    <None Remove="Millennium\Chord.wav" />
+    <None Remove="Millennium\Ding.wav" />
+    <None Remove="Millennium\Log Off.wav" />
+    <None Remove="Millennium\Log On.wav" />
+    <None Remove="Millennium\Notify.wav" />
+    <None Remove="Millennium\Ring In.wav" />
+    <None Remove="Millennium\Ring Out.wav" />
+    <None Remove="Millennium\Start.wav" />
+    <None Remove="Millennium\Tada.wav" />
+    <None Remove="Minimal\Background.wav" />
+    <None Remove="Minimal\Foreground.wav" />
+    <None Remove="Minimal\Hardware Fail.wav" />
+    <None Remove="Minimal\Hardware Insert.wav" />
+    <None Remove="Minimal\Hardware Remove.wav" />
+    <None Remove="Minimal\Message Nudge.wav" />
+    <None Remove="Minimal\Notify Calendar.wav" />
+    <None Remove="Minimal\Notify Email.wav" />
+    <None Remove="Minimal\Notify Messaging.wav" />
+    <None Remove="Minimal\Notify System Generic.wav" />
+    <None Remove="Minimal\Proximity Connection.wav" />
+    <None Remove="Minimal\Proximity Notification.wav" />
+    <None Remove="Minimal\Startup.wav" />
+    <None Remove="Minimal\Unlock.wav" />
+    <None Remove="Minimal\User Account Control.wav" />
+    <None Remove="New\Chimes.wav" />
+    <None Remove="New\Chord.wav" />
+    <None Remove="New\Ding.wav" />
+    <None Remove="New\Explore.wav" />
+    <None Remove="New\Log Off.wav" />
+    <None Remove="New\Log On.wav" />
+    <None Remove="New\Ring In.wav" />
+    <None Remove="New\Ring Out.wav" />
+    <None Remove="New\Tada.wav" />
+    <None Remove="Redstone\Background.wav" />
+    <None Remove="Redstone\Foreground.wav" />
+    <None Remove="Redstone\Message Nudge.wav" />
+    <None Remove="Redstone\Notify Calendar.wav" />
+    <None Remove="Redstone\Notify Email.wav" />
+    <None Remove="Redstone\Notify Messaging.wav" />
+    <None Remove="Redstone\Notify System Generic.wav" />
+    <None Remove="Redstone\User Account Control.wav" />
+    <None Remove="Scenery\Balloon.wav" />
+    <None Remove="Scenery\Battery Critical.wav" />
+    <None Remove="Scenery\Battery Low.wav" />
+    <None Remove="Scenery\Chimes.wav" />
+    <None Remove="Scenery\Chord.wav" />
+    <None Remove="Scenery\Critical Stop.wav" />
+    <None Remove="Scenery\Default.wav" />
+    <None Remove="Scenery\Ding.wav" />
+    <None Remove="Scenery\Error.wav" />
+    <None Remove="Scenery\Exclamation.wav" />
+    <None Remove="Scenery\Explore.wav" />
+    <None Remove="Scenery\Feed Discovered.wav" />
+    <None Remove="Scenery\Hardware Fail.wav" />
+    <None Remove="Scenery\Hardware Insert.wav" />
+    <None Remove="Scenery\Hardware Remove.wav" />
+    <None Remove="Scenery\Information Bar.wav" />
+    <None Remove="Scenery\Log Off.wav" />
+    <None Remove="Scenery\Log On.wav" />
+    <None Remove="Scenery\Menu Command.wav" />
+    <None Remove="Scenery\Notify-1.wav" />
+    <None Remove="Scenery\Notify-2.wav" />
+    <None Remove="Scenery\Pop-up Blocked.wav" />
+    <None Remove="Scenery\Print Complete.wav" />
+    <None Remove="Scenery\Ring In.wav" />
+    <None Remove="Scenery\Ring Out.wav" />
+    <None Remove="Scenery\Shutdown.wav" />
+    <None Remove="Scenery\Speech Disambiguation.wav" />
+    <None Remove="Scenery\Speech Misrecognition.wav" />
+    <None Remove="Scenery\Speech Off.wav" />
+    <None Remove="Scenery\Speech On.wav" />
+    <None Remove="Scenery\Speech Sleep.wav" />
+    <None Remove="Scenery\Startup.wav" />
+    <None Remove="Scenery\Tada.wav" />
+    <None Remove="Scenery\User Account Control.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Ancient\Chimes.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Chord.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Ring In.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Ring Out.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Startup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ancient\Tada.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Background.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Foreground.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Message Nudge.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Notify Calendar.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Notify Email.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Notify Messaging.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\Notify System Generic.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Anniversary\User Account Control.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Flatbread.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Classic\Chimes.wav" />
+    <Content Include="Classic\Chord.wav" />
+    <Content Include="Classic\Ding.wav" />
+    <Content Include="Classic\Startup-1.wav" />
+    <Content Include="Classic\Startup-2.wav" />
+    <Content Include="Classic\Tada.wav" />
+    <Content Include="Experience\Balloon.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Battery Critical.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Battery Low.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Critical Stop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Default.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Error.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Exclamation.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Explore.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Hardware Fail.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Hardware Insert.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Hardware Remove.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Log Off.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Log On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Menu Command.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Notify.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Print Complete.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Ring In.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Ring Out.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Shutdown.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Experience\Startup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Chimes.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Chord.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Log Off.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Log On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Notify.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Ring In.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Ring Out.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Start.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Millennium\Tada.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Background.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Foreground.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Hardware Fail.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Hardware Insert.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Hardware Remove.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Message Nudge.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Notify Calendar.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Notify Email.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Notify Messaging.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Notify System Generic.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Proximity Connection.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Proximity Notification.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Startup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\Unlock.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Minimal\User Account Control.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Chimes.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Chord.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Explore.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Log Off.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Log On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Ring In.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Ring Out.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="New\Tada.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Background.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Foreground.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Message Nudge.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Notify Calendar.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Notify Email.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Notify Messaging.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\Notify System Generic.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redstone\User Account Control.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Balloon.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Battery Critical.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Battery Low.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Chimes.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Chord.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Critical Stop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Default.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Error.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Exclamation.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Explore.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Feed Discovered.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Hardware Fail.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Hardware Insert.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Hardware Remove.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Information Bar.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Log Off.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Log On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Menu Command.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Notify-1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Notify-2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Pop-up Blocked.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Print Complete.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Ring In.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Ring Out.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Shutdown.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Speech Disambiguation.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Speech Misrecognition.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Speech Off.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Speech On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Speech Sleep.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Startup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\Tada.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scenery\User Account Control.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\Flatbread.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
