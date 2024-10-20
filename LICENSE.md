@@ -1,5 +1,3 @@
-
-> [!WARNING]
 > The Sound Schemes presented here are entirely free for the Windows community and for ordinary 
 users who can download and utilize them on the Windows operating system or other operating systems.
 > All melodies and ideas are owned by Microsoft Corporation and their autors. This is simply 
