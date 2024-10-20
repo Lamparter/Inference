@@ -9,7 +9,7 @@
     <Copyright>Copyright (c) 2024 David Mounder</Copyright>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <IncludeSymbols>True</IncludeSymbols>
+    <IncludeSymbols>False</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageTags>sounds, rebound, riverside, windows11</PackageTags>
     <RepositoryType>git</RepositoryType>
