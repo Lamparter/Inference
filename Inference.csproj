@@ -16,6 +16,7 @@
     <RepositoryUrl>https://github.com/Lamparter/Inference</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>Flatbread.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
