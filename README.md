@@ -4,24 +4,24 @@
 
 ---
 
+Here's a list of the sound schemes:
+
+- New (WinNT4.0)
+- Classic (Win95)
+- Ancient (WinNT5.0)
+- Millennium (Win2000)
+- Experience (WinXP)
+- Scenery (Win Vista/Win7)
+- Minimal (Win8/8.1)
+- Redstone (Win10 Old Build)
+- Anniversary (Win10 New Build)
+
 > Hello, world! It's David Mounder! 
 > 
 > I'm excited to share with you My Collection of Sound Schemes from my recent rubric on my YouTube channel titled 'I transformed the Classic Startups into Windows 11!'
 > 
 > This folder comprises nearly all of my transformed sound schemes, with the exception of Win 98. The original sound scheme for Win 98 featured a wide variety of sounds, 
-> making it unrealistic for me to recreate. I apologize for this omission... I couldn't even transformate the Win98 startup sound. What are we talking about, right?
-> 
-> Here's a list of my sound schemes:
-> 
-> - ElevenNT4 (WinNT4.0)
-> - NintyFive11 (Win95)
-> - ElevenNT5 (WinNT5.0)
-> - TwoThousand11 (Win2000)
-> - Expierence 11 (WinXP)
-> - 7Vista11 (Win Vista/Win7)
-> - Eight11 (Win8/8.1)
-> - Ten11 Alfa (Win10 Old Build)
-> - Ten11 Beta (Win10 New Build)
+> making it unrealistic for me to recreate. I apologize for this omission... I couldn't even transform the Win98 startup sound. What are we talking about, right?
 > 
 > #### A few questions about my sound schemes:
 > 
